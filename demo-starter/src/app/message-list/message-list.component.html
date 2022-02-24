@@ -1,0 +1,9 @@
+<button class="btn" 
+    [disabled]="!allowNewMessage"
+    (click)="onCreateMessage()">Add a message</button>
+<hr>
+<p>{{clickedMessage}}</p>
+<hr>
+<app-message></app-message>
+<app-message></app-message>
+<app-message></app-message>
